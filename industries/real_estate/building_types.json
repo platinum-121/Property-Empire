@@ -1,0 +1,56 @@
+{
+  "schema": "corp-sim-real-estate-building-types",
+  "version": 1,
+  "building_types": [
+    {
+      "building_type_id": "small_office",
+      "name": "Small Office",
+      "base_construction_cost": 500000,
+      "base_monthly_rent": 9000,
+      "base_monthly_maintenance": 2200,
+      "base_property_value": 650000,
+      "tenant_capacity": 6,
+      "target_occupancy": 0.82
+    },
+    {
+      "building_type_id": "retail_block",
+      "name": "Retail Block",
+      "base_construction_cost": 850000,
+      "base_monthly_rent": 14500,
+      "base_monthly_maintenance": 3800,
+      "base_property_value": 1100000,
+      "tenant_capacity": 10,
+      "target_occupancy": 0.78
+    },
+    {
+      "building_type_id": "apartment_complex",
+      "name": "Apartment Complex",
+      "base_construction_cost": 1800000,
+      "base_monthly_rent": 28000,
+      "base_monthly_maintenance": 7600,
+      "base_property_value": 2400000,
+      "tenant_capacity": 40,
+      "target_occupancy": 0.9
+    },
+    {
+      "building_type_id": "industrial_warehouse",
+      "name": "Industrial Warehouse",
+      "base_construction_cost": 1250000,
+      "base_monthly_rent": 21000,
+      "base_monthly_maintenance": 5200,
+      "base_property_value": 1600000,
+      "tenant_capacity": 4,
+      "target_occupancy": 0.74
+    },
+    {
+      "building_type_id": "office_tower",
+      "name": "Office Tower",
+      "base_construction_cost": 9000000,
+      "base_monthly_rent": 140000,
+      "base_monthly_maintenance": 42000,
+      "base_property_value": 12500000,
+      "tenant_capacity": 80,
+      "target_occupancy": 0.86
+    }
+  ]
+}

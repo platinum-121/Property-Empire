@@ -1,0 +1,812 @@
+{
+  "schema": "corp-sim-world",
+  "version": 2,
+  "world": {
+    "continents": [
+      {
+        "continent_id": "north_america",
+        "name": "North America",
+        "countries": [
+          {
+            "country_id": "united_states",
+            "name": "United States",
+            "iso_code": "US",
+            "currency_code": "USD",
+            "regions": [
+              {
+                "region_id": "northeast",
+                "name": "Northeast",
+                "cities": [
+                  {
+                    "city_id": "new_york_city",
+                    "name": "New York City",
+                    "population": 18800000,
+                    "property_multiplier": 1.95,
+                    "growth_rate": 0.004,
+                    "demand_score": 98.0
+                  },
+                  {
+                    "city_id": "boston",
+                    "name": "Boston",
+                    "population": 4900000,
+                    "property_multiplier": 1.68,
+                    "growth_rate": 0.006,
+                    "demand_score": 88.0
+                  },
+                  {
+                    "city_id": "philadelphia",
+                    "name": "Philadelphia",
+                    "population": 6200000,
+                    "property_multiplier": 1.18,
+                    "growth_rate": 0.004,
+                    "demand_score": 73.0
+                  },
+                  {
+                    "city_id": "washington_dc",
+                    "name": "Washington DC",
+                    "population": 6400000,
+                    "property_multiplier": 1.56,
+                    "growth_rate": 0.007,
+                    "demand_score": 84.0
+                  },
+                  {
+                    "city_id": "buffalo",
+                    "name": "Buffalo",
+                    "population": 1100000,
+                    "property_multiplier": 0.78,
+                    "growth_rate": 0.003,
+                    "demand_score": 56.0
+                  },
+                  {
+                    "city_id": "pittsburgh",
+                    "name": "Pittsburgh",
+                    "population": 2400000,
+                    "property_multiplier": 0.94,
+                    "growth_rate": 0.004,
+                    "demand_score": 64.0
+                  },
+                  {
+                    "city_id": "baltimore",
+                    "name": "Baltimore",
+                    "population": 2800000,
+                    "property_multiplier": 1.02,
+                    "growth_rate": 0.002,
+                    "demand_score": 62.0
+                  },
+                  {
+                    "city_id": "providence",
+                    "name": "Providence",
+                    "population": 1700000,
+                    "property_multiplier": 1.1,
+                    "growth_rate": 0.004,
+                    "demand_score": 66.0
+                  },
+                  {
+                    "city_id": "hartford",
+                    "name": "Hartford",
+                    "population": 1200000,
+                    "property_multiplier": 1.04,
+                    "growth_rate": 0.003,
+                    "demand_score": 61.0
+                  },
+                  {
+                    "city_id": "newark",
+                    "name": "Newark",
+                    "population": 2300000,
+                    "property_multiplier": 1.28,
+                    "growth_rate": 0.006,
+                    "demand_score": 72.0
+                  },
+                  {
+                    "city_id": "jersey_city",
+                    "name": "Jersey City",
+                    "population": 700000,
+                    "property_multiplier": 1.42,
+                    "growth_rate": 0.011,
+                    "demand_score": 78.0
+                  },
+                  {
+                    "city_id": "rochester",
+                    "name": "Rochester",
+                    "population": 1100000,
+                    "property_multiplier": 0.76,
+                    "growth_rate": 0.002,
+                    "demand_score": 53.0
+                  },
+                  {
+                    "city_id": "albany",
+                    "name": "Albany",
+                    "population": 900000,
+                    "property_multiplier": 0.9,
+                    "growth_rate": 0.004,
+                    "demand_score": 58.0
+                  },
+                  {
+                    "city_id": "worcester",
+                    "name": "Worcester",
+                    "population": 980000,
+                    "property_multiplier": 1.02,
+                    "growth_rate": 0.006,
+                    "demand_score": 63.0
+                  },
+                  {
+                    "city_id": "new_haven",
+                    "name": "New Haven",
+                    "population": 860000,
+                    "property_multiplier": 1.05,
+                    "growth_rate": 0.004,
+                    "demand_score": 62.0
+                  },
+                  {
+                    "city_id": "stamford",
+                    "name": "Stamford",
+                    "population": 950000,
+                    "property_multiplier": 1.38,
+                    "growth_rate": 0.007,
+                    "demand_score": 74.0
+                  }
+                ]
+              },
+              {
+                "region_id": "southeast",
+                "name": "Southeast",
+                "cities": [
+                  {
+                    "city_id": "atlanta",
+                    "name": "Atlanta",
+                    "population": 6300000,
+                    "property_multiplier": 1.22,
+                    "growth_rate": 0.018,
+                    "demand_score": 82.0
+                  },
+                  {
+                    "city_id": "miami",
+                    "name": "Miami",
+                    "population": 6200000,
+                    "property_multiplier": 1.52,
+                    "growth_rate": 0.015,
+                    "demand_score": 86.0
+                  },
+                  {
+                    "city_id": "charlotte",
+                    "name": "Charlotte",
+                    "population": 2800000,
+                    "property_multiplier": 1.08,
+                    "growth_rate": 0.021,
+                    "demand_score": 78.0
+                  },
+                  {
+                    "city_id": "nashville",
+                    "name": "Nashville",
+                    "population": 2100000,
+                    "property_multiplier": 1.16,
+                    "growth_rate": 0.019,
+                    "demand_score": 77.0
+                  },
+                  {
+                    "city_id": "orlando",
+                    "name": "Orlando",
+                    "population": 2700000,
+                    "property_multiplier": 1.2,
+                    "growth_rate": 0.024,
+                    "demand_score": 81.0
+                  },
+                  {
+                    "city_id": "tampa",
+                    "name": "Tampa",
+                    "population": 3200000,
+                    "property_multiplier": 1.18,
+                    "growth_rate": 0.022,
+                    "demand_score": 79.0
+                  },
+                  {
+                    "city_id": "jacksonville",
+                    "name": "Jacksonville",
+                    "population": 1700000,
+                    "property_multiplier": 0.98,
+                    "growth_rate": 0.018,
+                    "demand_score": 68.0
+                  },
+                  {
+                    "city_id": "raleigh",
+                    "name": "Raleigh",
+                    "population": 1500000,
+                    "property_multiplier": 1.14,
+                    "growth_rate": 0.024,
+                    "demand_score": 80.0
+                  },
+                  {
+                    "city_id": "durham",
+                    "name": "Durham",
+                    "population": 700000,
+                    "property_multiplier": 1.1,
+                    "growth_rate": 0.022,
+                    "demand_score": 76.0
+                  },
+                  {
+                    "city_id": "greensboro",
+                    "name": "Greensboro",
+                    "population": 780000,
+                    "property_multiplier": 0.9,
+                    "growth_rate": 0.012,
+                    "demand_score": 61.0
+                  },
+                  {
+                    "city_id": "charleston",
+                    "name": "Charleston",
+                    "population": 820000,
+                    "property_multiplier": 1.16,
+                    "growth_rate": 0.018,
+                    "demand_score": 73.0
+                  },
+                  {
+                    "city_id": "richmond",
+                    "name": "Richmond",
+                    "population": 1300000,
+                    "property_multiplier": 1.02,
+                    "growth_rate": 0.011,
+                    "demand_score": 67.0
+                  },
+                  {
+                    "city_id": "virginia_beach",
+                    "name": "Virginia Beach",
+                    "population": 1800000,
+                    "property_multiplier": 1.04,
+                    "growth_rate": 0.009,
+                    "demand_score": 65.0
+                  },
+                  {
+                    "city_id": "louisville",
+                    "name": "Louisville",
+                    "population": 1300000,
+                    "property_multiplier": 0.88,
+                    "growth_rate": 0.008,
+                    "demand_score": 59.0
+                  },
+                  {
+                    "city_id": "birmingham",
+                    "name": "Birmingham",
+                    "population": 1100000,
+                    "property_multiplier": 0.82,
+                    "growth_rate": 0.006,
+                    "demand_score": 54.0
+                  },
+                  {
+                    "city_id": "new_orleans",
+                    "name": "New Orleans",
+                    "population": 1300000,
+                    "property_multiplier": 0.95,
+                    "growth_rate": 0.004,
+                    "demand_score": 57.0
+                  },
+                  {
+                    "city_id": "memphis",
+                    "name": "Memphis",
+                    "population": 1300000,
+                    "property_multiplier": 0.78,
+                    "growth_rate": 0.004,
+                    "demand_score": 52.0
+                  },
+                  {
+                    "city_id": "savannah",
+                    "name": "Savannah",
+                    "population": 420000,
+                    "property_multiplier": 1.0,
+                    "growth_rate": 0.014,
+                    "demand_score": 64.0
+                  },
+                  {
+                    "city_id": "fort_lauderdale",
+                    "name": "Fort Lauderdale",
+                    "population": 1900000,
+                    "property_multiplier": 1.35,
+                    "growth_rate": 0.013,
+                    "demand_score": 76.0
+                  },
+                  {
+                    "city_id": "west_palm_beach",
+                    "name": "West Palm Beach",
+                    "population": 1500000,
+                    "property_multiplier": 1.32,
+                    "growth_rate": 0.012,
+                    "demand_score": 74.0
+                  }
+                ]
+              },
+              {
+                "region_id": "midwest",
+                "name": "Midwest",
+                "cities": [
+                  {
+                    "city_id": "chicago",
+                    "name": "Chicago",
+                    "population": 9500000,
+                    "property_multiplier": 1.35,
+                    "growth_rate": 0.002,
+                    "demand_score": 80.0
+                  },
+                  {
+                    "city_id": "detroit",
+                    "name": "Detroit",
+                    "population": 4300000,
+                    "property_multiplier": 0.82,
+                    "growth_rate": 0.003,
+                    "demand_score": 58.0
+                  },
+                  {
+                    "city_id": "minneapolis",
+                    "name": "Minneapolis",
+                    "population": 3700000,
+                    "property_multiplier": 1.12,
+                    "growth_rate": 0.008,
+                    "demand_score": 72.0
+                  },
+                  {
+                    "city_id": "columbus",
+                    "name": "Columbus",
+                    "population": 2200000,
+                    "property_multiplier": 1.0,
+                    "growth_rate": 0.012,
+                    "demand_score": 70.0
+                  },
+                  {
+                    "city_id": "cleveland",
+                    "name": "Cleveland",
+                    "population": 3600000,
+                    "property_multiplier": 0.82,
+                    "growth_rate": 0.001,
+                    "demand_score": 54.0
+                  },
+                  {
+                    "city_id": "cincinnati",
+                    "name": "Cincinnati",
+                    "population": 2300000,
+                    "property_multiplier": 0.9,
+                    "growth_rate": 0.006,
+                    "demand_score": 60.0
+                  },
+                  {
+                    "city_id": "indianapolis",
+                    "name": "Indianapolis",
+                    "population": 2100000,
+                    "property_multiplier": 0.92,
+                    "growth_rate": 0.01,
+                    "demand_score": 64.0
+                  },
+                  {
+                    "city_id": "milwaukee",
+                    "name": "Milwaukee",
+                    "population": 1600000,
+                    "property_multiplier": 0.94,
+                    "growth_rate": 0.004,
+                    "demand_score": 59.0
+                  },
+                  {
+                    "city_id": "st_louis",
+                    "name": "St Louis",
+                    "population": 2800000,
+                    "property_multiplier": 0.86,
+                    "growth_rate": 0.002,
+                    "demand_score": 55.0
+                  },
+                  {
+                    "city_id": "kansas_city",
+                    "name": "Kansas City",
+                    "population": 2200000,
+                    "property_multiplier": 0.92,
+                    "growth_rate": 0.01,
+                    "demand_score": 63.0
+                  },
+                  {
+                    "city_id": "omaha",
+                    "name": "Omaha",
+                    "population": 980000,
+                    "property_multiplier": 0.88,
+                    "growth_rate": 0.011,
+                    "demand_score": 62.0
+                  },
+                  {
+                    "city_id": "des_moines",
+                    "name": "Des Moines",
+                    "population": 720000,
+                    "property_multiplier": 0.84,
+                    "growth_rate": 0.01,
+                    "demand_score": 59.0
+                  },
+                  {
+                    "city_id": "madison",
+                    "name": "Madison",
+                    "population": 680000,
+                    "property_multiplier": 1.0,
+                    "growth_rate": 0.012,
+                    "demand_score": 68.0
+                  },
+                  {
+                    "city_id": "grand_rapids",
+                    "name": "Grand Rapids",
+                    "population": 1100000,
+                    "property_multiplier": 0.86,
+                    "growth_rate": 0.011,
+                    "demand_score": 61.0
+                  },
+                  {
+                    "city_id": "toledo",
+                    "name": "Toledo",
+                    "population": 610000,
+                    "property_multiplier": 0.72,
+                    "growth_rate": 0.001,
+                    "demand_score": 48.0
+                  },
+                  {
+                    "city_id": "wichita",
+                    "name": "Wichita",
+                    "population": 650000,
+                    "property_multiplier": 0.78,
+                    "growth_rate": 0.006,
+                    "demand_score": 52.0
+                  },
+                  {
+                    "city_id": "lincoln",
+                    "name": "Lincoln",
+                    "population": 360000,
+                    "property_multiplier": 0.78,
+                    "growth_rate": 0.01,
+                    "demand_score": 56.0
+                  },
+                  {
+                    "city_id": "ann_arbor",
+                    "name": "Ann Arbor",
+                    "population": 370000,
+                    "property_multiplier": 1.08,
+                    "growth_rate": 0.009,
+                    "demand_score": 69.0
+                  }
+                ]
+              },
+              {
+                "region_id": "texas_southwest",
+                "name": "Texas & Southwest",
+                "cities": [
+                  {
+                    "city_id": "dallas",
+                    "name": "Dallas",
+                    "population": 7800000,
+                    "property_multiplier": 1.24,
+                    "growth_rate": 0.019,
+                    "demand_score": 84.0
+                  },
+                  {
+                    "city_id": "houston",
+                    "name": "Houston",
+                    "population": 7300000,
+                    "property_multiplier": 1.1,
+                    "growth_rate": 0.016,
+                    "demand_score": 78.0
+                  },
+                  {
+                    "city_id": "austin",
+                    "name": "Austin",
+                    "population": 2400000,
+                    "property_multiplier": 1.42,
+                    "growth_rate": 0.025,
+                    "demand_score": 89.0
+                  },
+                  {
+                    "city_id": "phoenix",
+                    "name": "Phoenix",
+                    "population": 5000000,
+                    "property_multiplier": 1.08,
+                    "growth_rate": 0.021,
+                    "demand_score": 75.0
+                  },
+                  {
+                    "city_id": "denver",
+                    "name": "Denver",
+                    "population": 3000000,
+                    "property_multiplier": 1.34,
+                    "growth_rate": 0.016,
+                    "demand_score": 81.0
+                  },
+                  {
+                    "city_id": "las_vegas",
+                    "name": "Las Vegas",
+                    "population": 2300000,
+                    "property_multiplier": 1.12,
+                    "growth_rate": 0.02,
+                    "demand_score": 74.0
+                  },
+                  {
+                    "city_id": "san_antonio",
+                    "name": "San Antonio",
+                    "population": 2600000,
+                    "property_multiplier": 1.0,
+                    "growth_rate": 0.018,
+                    "demand_score": 72.0
+                  },
+                  {
+                    "city_id": "fort_worth",
+                    "name": "Fort Worth",
+                    "population": 2600000,
+                    "property_multiplier": 1.04,
+                    "growth_rate": 0.02,
+                    "demand_score": 75.0
+                  },
+                  {
+                    "city_id": "el_paso",
+                    "name": "El Paso",
+                    "population": 970000,
+                    "property_multiplier": 0.76,
+                    "growth_rate": 0.009,
+                    "demand_score": 52.0
+                  },
+                  {
+                    "city_id": "oklahoma_city",
+                    "name": "Oklahoma City",
+                    "population": 1500000,
+                    "property_multiplier": 0.82,
+                    "growth_rate": 0.012,
+                    "demand_score": 59.0
+                  },
+                  {
+                    "city_id": "albuquerque",
+                    "name": "Albuquerque",
+                    "population": 920000,
+                    "property_multiplier": 0.82,
+                    "growth_rate": 0.006,
+                    "demand_score": 53.0
+                  },
+                  {
+                    "city_id": "tucson",
+                    "name": "Tucson",
+                    "population": 1100000,
+                    "property_multiplier": 0.9,
+                    "growth_rate": 0.013,
+                    "demand_score": 61.0
+                  },
+                  {
+                    "city_id": "salt_lake_city",
+                    "name": "Salt Lake City",
+                    "population": 1300000,
+                    "property_multiplier": 1.18,
+                    "growth_rate": 0.021,
+                    "demand_score": 78.0
+                  },
+                  {
+                    "city_id": "boise",
+                    "name": "Boise",
+                    "population": 850000,
+                    "property_multiplier": 1.08,
+                    "growth_rate": 0.024,
+                    "demand_score": 72.0
+                  },
+                  {
+                    "city_id": "colorado_springs",
+                    "name": "Colorado Springs",
+                    "population": 780000,
+                    "property_multiplier": 1.04,
+                    "growth_rate": 0.019,
+                    "demand_score": 69.0
+                  },
+                  {
+                    "city_id": "tulsa",
+                    "name": "Tulsa",
+                    "population": 1000000,
+                    "property_multiplier": 0.82,
+                    "growth_rate": 0.007,
+                    "demand_score": 55.0
+                  },
+                  {
+                    "city_id": "reno",
+                    "name": "Reno",
+                    "population": 520000,
+                    "property_multiplier": 1.0,
+                    "growth_rate": 0.018,
+                    "demand_score": 66.0
+                  },
+                  {
+                    "city_id": "scottsdale",
+                    "name": "Scottsdale",
+                    "population": 260000,
+                    "property_multiplier": 1.34,
+                    "growth_rate": 0.016,
+                    "demand_score": 76.0
+                  },
+                  {
+                    "city_id": "mesa",
+                    "name": "Mesa",
+                    "population": 520000,
+                    "property_multiplier": 0.98,
+                    "growth_rate": 0.018,
+                    "demand_score": 67.0
+                  },
+                  {
+                    "city_id": "lubbock",
+                    "name": "Lubbock",
+                    "population": 330000,
+                    "property_multiplier": 0.72,
+                    "growth_rate": 0.009,
+                    "demand_score": 50.0
+                  }
+                ]
+              },
+              {
+                "region_id": "west_coast",
+                "name": "West Coast",
+                "cities": [
+                  {
+                    "city_id": "los_angeles",
+                    "name": "Los Angeles",
+                    "population": 12400000,
+                    "property_multiplier": 1.7,
+                    "growth_rate": 0.003,
+                    "demand_score": 91.0
+                  },
+                  {
+                    "city_id": "san_francisco",
+                    "name": "San Francisco",
+                    "population": 4600000,
+                    "property_multiplier": 1.9,
+                    "growth_rate": 0.002,
+                    "demand_score": 92.0
+                  },
+                  {
+                    "city_id": "seattle",
+                    "name": "Seattle",
+                    "population": 4000000,
+                    "property_multiplier": 1.55,
+                    "growth_rate": 0.01,
+                    "demand_score": 85.0
+                  },
+                  {
+                    "city_id": "san_diego",
+                    "name": "San Diego",
+                    "population": 3300000,
+                    "property_multiplier": 1.48,
+                    "growth_rate": 0.008,
+                    "demand_score": 83.0
+                  },
+                  {
+                    "city_id": "portland",
+                    "name": "Portland",
+                    "population": 2500000,
+                    "property_multiplier": 1.22,
+                    "growth_rate": 0.007,
+                    "demand_score": 72.0
+                  },
+                  {
+                    "city_id": "sacramento",
+                    "name": "Sacramento",
+                    "population": 2400000,
+                    "property_multiplier": 1.18,
+                    "growth_rate": 0.011,
+                    "demand_score": 71.0
+                  },
+                  {
+                    "city_id": "san_jose",
+                    "name": "San Jose",
+                    "population": 2000000,
+                    "property_multiplier": 1.82,
+                    "growth_rate": 0.005,
+                    "demand_score": 86.0
+                  },
+                  {
+                    "city_id": "oakland",
+                    "name": "Oakland",
+                    "population": 2800000,
+                    "property_multiplier": 1.48,
+                    "growth_rate": 0.004,
+                    "demand_score": 76.0
+                  },
+                  {
+                    "city_id": "fresno",
+                    "name": "Fresno",
+                    "population": 1000000,
+                    "property_multiplier": 0.86,
+                    "growth_rate": 0.01,
+                    "demand_score": 57.0
+                  },
+                  {
+                    "city_id": "riverside",
+                    "name": "Riverside",
+                    "population": 4600000,
+                    "property_multiplier": 1.16,
+                    "growth_rate": 0.012,
+                    "demand_score": 72.0
+                  },
+                  {
+                    "city_id": "long_beach",
+                    "name": "Long Beach",
+                    "population": 470000,
+                    "property_multiplier": 1.35,
+                    "growth_rate": 0.004,
+                    "demand_score": 73.0
+                  },
+                  {
+                    "city_id": "anaheim",
+                    "name": "Anaheim",
+                    "population": 350000,
+                    "property_multiplier": 1.34,
+                    "growth_rate": 0.005,
+                    "demand_score": 72.0
+                  },
+                  {
+                    "city_id": "irvine",
+                    "name": "Irvine",
+                    "population": 310000,
+                    "property_multiplier": 1.58,
+                    "growth_rate": 0.012,
+                    "demand_score": 82.0
+                  },
+                  {
+                    "city_id": "santa_ana",
+                    "name": "Santa Ana",
+                    "population": 310000,
+                    "property_multiplier": 1.28,
+                    "growth_rate": 0.004,
+                    "demand_score": 68.0
+                  },
+                  {
+                    "city_id": "spokane",
+                    "name": "Spokane",
+                    "population": 600000,
+                    "property_multiplier": 0.94,
+                    "growth_rate": 0.013,
+                    "demand_score": 62.0
+                  },
+                  {
+                    "city_id": "tacoma",
+                    "name": "Tacoma",
+                    "population": 920000,
+                    "property_multiplier": 1.12,
+                    "growth_rate": 0.01,
+                    "demand_score": 68.0
+                  },
+                  {
+                    "city_id": "bellevue",
+                    "name": "Bellevue",
+                    "population": 150000,
+                    "property_multiplier": 1.62,
+                    "growth_rate": 0.012,
+                    "demand_score": 84.0
+                  },
+                  {
+                    "city_id": "eugene",
+                    "name": "Eugene",
+                    "population": 380000,
+                    "property_multiplier": 0.96,
+                    "growth_rate": 0.008,
+                    "demand_score": 60.0
+                  },
+                  {
+                    "city_id": "salem",
+                    "name": "Salem",
+                    "population": 440000,
+                    "property_multiplier": 0.9,
+                    "growth_rate": 0.01,
+                    "demand_score": 58.0
+                  },
+                  {
+                    "city_id": "anchorage",
+                    "name": "Anchorage",
+                    "population": 400000,
+                    "property_multiplier": 0.92,
+                    "growth_rate": 0.002,
+                    "demand_score": 51.0
+                  },
+                  {
+                    "city_id": "honolulu",
+                    "name": "Honolulu",
+                    "population": 1000000,
+                    "property_multiplier": 1.62,
+                    "growth_rate": 0.004,
+                    "demand_score": 78.0
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

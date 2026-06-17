@@ -1,0 +1,44 @@
+# pyproject.toml
+# © Copyright 2026 Sam [Platinum]
+
+[project]
+name = "corp-sim"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "PyQt6>=6.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+]
+
+[project.scripts]
+corp-sim = "main:main"
+
+[tool.setuptools]
+packages = [
+    "companies",
+    "config",
+    "core",
+    "finance",
+    "gameplay",
+    "industries",
+    "industries.real_estate",
+    "news",
+    "npcs",
+    "tests",
+    "ui",
+    "world",
+]
+py-modules = ["main"]
+
+[tool.setuptools.package-data]
+industries = ["real_estate/*.json"]
+world = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
